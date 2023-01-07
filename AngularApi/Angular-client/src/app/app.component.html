@@ -1,0 +1,39 @@
+<ngx-spinner size="large" type="ball-scale-multiple" [fullScreen]="true">
+    <p style="color: white ;font-style: italic;"> Loading... </p>
+</ngx-spinner>
+
+<div class="container">
+        <h1>Angular 13 Toastr , Sweet Alert and Spinner Example</h1>
+    <div class="row">
+        <div class="col-2">
+            <button class="btn btn-success mb-3" (click)="showToasterSuccess()">Success Toaster</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-danger mb-3" (click)="showToasterError()">Error Toaster</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-info mb-3" (click)="showToasterInfo()">Info Toaster</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-warning mb-3" (click)="showToasterWarning()">Warning Toaster</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-primary mb-3" (click)="simpleAlert()">Simple Alert</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-success mb-3" (click)="alertWithSuccess()">Alert with Success</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-primary mb-3" (click)="confirmBox()">confirm Box</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-danger mb-3" (click)="alertWithError()">Alert with Error</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-primary mb-3" (click)="SweetToastr()">Sweet Toastr</button>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-info" (click)="APITesting()"> API Calling</button>
+        </div>
+    </div>
+</div>
